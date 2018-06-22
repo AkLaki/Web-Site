@@ -1,0 +1,224 @@
+﻿/* Основные стили */
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+a {
+	text-decoration: none;
+}
+html{height:100%:}
+body {
+	height:100%;
+	width: 100%;
+	background-color: #fff;
+	background-image: url(img/background.jpg);
+	margin: 0;
+	padding: 0;
+	line-height: 1.3;
+	float: left;
+}
+ /* Стили для шапки */
+header {
+	height: 7%;
+	width: 100%;
+	margin:0;
+	padding:0;
+	float: left;
+	background-color:   #fff;
+}
+header nav {
+	height: 100%;
+	width: 100%;
+	
+	margin:0;
+	padding:0;
+	float: left;
+}
+header nav a {
+	width: 15%;
+	height: 100%;
+	font-family: "Ubuntu Condensed", sans-serif;
+	color: #ff9966;
+	font-size: 1.65em;
+	padding-left: 4%;
+	padding-top: 1%;
+	text-align: center;
+	float: left;
+}
+nav a:hover {
+	-moz-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	color: #ffccb3;
+	font-size: 1.8em;
+}
+/* Стили Поисковика */
+.d_2 {
+	width: 100%;
+	height: 13%;
+	float: left;
+	text-align: center;
+	margin-top: 6%;
+	position: relative;
+}
+.d_2 p {
+	font-family: "Ubuntu Condensed";
+	font-size: 1.7em;
+	color: #fff;
+}
+#search {
+	margin-top: 1%;
+	width: 40%;
+	height: 50%;
+	font-size: 1.5em;
+	padding-left: 1%;
+	color: #4d4d4d;
+	font-family: "Ubuntu Condensed";
+	border-style: none;
+}
+input::-webkit-input-placeholder {color: #4d4d4d}
+input::-moz-input-placeholder {color: #4d4d4d}
+input::-moz-input-placeholder {opacity: 0.4}
+input::-webkit-input-placeholder {opacity: 0.4}
+
+/* Стили к основной части сайта */
+#wrap {
+	height: 100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	float: left;
+}
+body #wrap .soe {
+	width: 26%;
+	height: 26%;
+	margin: 2%;	
+	float: left;
+	
+}
+.b_1 {
+	float: left;
+	width: 100%;
+	margin-bottom: 9%;
+}
+.b_2 {
+	position: absolute;
+	float: left;
+	width: 45%;
+	height: 15%;
+	padding-top: 1%;
+	margin-top: 56%;
+	margin-left: 13%;
+	color: #fff;
+	font-family: "Ubuntu Condensed";
+	background-color:  #ff5500;
+	border-radius: 35px;
+	font-size: 1.4em;
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.5s linear;
+}
+.b_3 {
+	position: absolute;
+	float: left;
+	width: 100%;
+	height: 15%;
+	margin-bottom: 60%;
+	margin-top: 6%;
+	margin-left: 8%;
+	color: #fff;
+	font-family: "Ubuntu Condensed";
+	font-size: 1.387em;
+	text-align: center;
+}
+body #wrap .soe img {
+	width: 100%;
+	height: 100%;
+	float: left;
+	margin-left: 7%;
+	border-radius: 7px;
+	
+}
+.im_1 {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+body #wrap .soe img:hover {
+	width:104%;
+	height:104%;
+	-moz-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+}
+.soe:hover .b_2 {
+	
+	transition-delay: 0.2s;
+	-moz-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	visibility: visible;
+    opacity: 0.87;
+}
+.h_1 {
+	width: 100%;
+	font-size: 1.8em;
+	float: left;
+	text-align: center;
+	font-family: "Ubuntu Condensed";
+	color: #fff;
+	margin-top: 2%;
+	
+}
+/* Стили для футера */
+footer {
+	float: left;
+	width: 100%;
+	height: 45%;
+	background-color:   #ffddcc
+;
+	
+}
+footer .d_1 {
+	width: 20%;
+	float: left;
+	
+	height: 65%;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	
+	
+}
+.h_3 {
+	font-family: "Ubuntu Condensed";
+	font-size:1.5em;
+	color:  #4da6ff;
+}
+.d_1 a {
+	font-size: 1.3em;
+	font-family: "Ubuntu Condensed";
+	color:  #a6a6a6;
+	margin: 5%;
+	margin-top: 10%;
+	width: 90%;
+	float: left;
+}
+#btn_1 {
+	width: 3%;
+	height: 30%;
+	float: left;
+	position: absolute;
+	margin-top: 2%;
+	font-size: 1.1em;
+	font-family: "Ubuntu Condensed";
+	background-color: #4da6ff;
+	color: #fff;
+	border-style: none;
+	border-radius: 50%;
+}
+#btn_1:hover {
+	background-color: #80bfff;
+	-moz-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+}
